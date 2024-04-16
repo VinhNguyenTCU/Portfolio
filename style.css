@@ -80,6 +80,34 @@
     justify-content: center;
 }
 
+.fa-github:hover{
+    color: rgb(63, 62, 62);
+}
+
+.fa-linkedin{
+    color: #0762C8;
+}
+
+.fa-linkedin:hover{
+    color: #217ee8;
+}
+
+.fa-envelope{
+    color: #c71610;
+}
+
+.fa-envelope:hover{
+    color: #e07b0e;
+}
+
+.fa-facebook{
+    color: #1877F2;
+}
+
+.fa-facebook:hover{
+    color: #3d89ee;
+}
+
 .social-media a{
     padding: 15px;
     font-size: 35px;
@@ -88,24 +116,62 @@
     top: 250px;
 }
 
+.home-page-title{
+    position: relative;
+    color: black;
+    font-size: 50px;
+}
+
 .download-resume{
     margin-top: 17px;
     border: none;
     color: white;
-    background-color: rgb(23, 149, 227);
+    background-color: rgb(7, 2, 105);
     padding: 12px;
     font-weight: bold;
     font-size: 18px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .download-resume:hover{
-    background-color: rgba(0,212,255,1);
+    background-color: rgb(13, 127, 209);
     box-shadow: 0 0 5px rgba(0,212,255,1);
 }
 
 
 .background{
-
+    background-color: rgb(216, 214, 214);
+    height: 300px;
+    margin-top: 250px;
+    width: 100%;
 }
 
+.title{
+    position: relative;
+    color: black;
+    font-size: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header:hover{
+    color: rgb(13, 127, 209);
+    transition: 1s;
+}
+
+.about-content{
+    text-align:justify;
+    width: 100%;
+    display: flex;
+    padding: 12px 80px 12px 80px;
+}
+
+
+.projects{
+    height: 600px;
+    display: grid;
+    
+}
