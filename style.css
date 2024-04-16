@@ -46,7 +46,8 @@
 .nav-bar a:hover{
     text-decoration: underline 0.15em white;
     text-underline-offset: 0.2em;
-    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    opacity: 1;
+    transform: translateX(2px);
 }
 
 
@@ -103,4 +104,8 @@
     box-shadow: 0 0 5px rgba(0,212,255,1);
 }
 
+
+.background{
+
+}
 
